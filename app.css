@@ -1,0 +1,62 @@
+
+body{
+    margin-top: 30px;
+}
+#main {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    width: 30%;
+    border: 1px solid rgba(168, 160, 160, 0.733);
+    box-shadow: 1px 1px 7px #888888;;
+   
+}
+#main2{
+    display: block;
+    text-align: left;
+    padding: 0 10px;
+    padding-bottom: 5px;
+   
+}
+img{
+   max-width: 100%;
+   max-height: 100%;
+    object-fit: contain;
+}
+hr{
+   
+    border: 1px solid rgb(154, 152, 152);
+    border-style: solid none none;
+}
+input[type="number"] {
+    width: 30px;
+}
+h1{
+    margin: 10px 0;
+}
+p{
+    margin: 2px 0;
+}
+#one{
+    background-color: rgb(18, 182, 108);
+}
+#two{
+    background-color: rgb(12, 79, 118);
+}
+#reset{
+    background-color: crimson;
+}
+button{
+    padding: 1em 2.7em;
+    border: 0;
+    border-radius: 5%;
+    color: azure;
+}
+@media (max-width: 768px) {
+    #main{
+        width: 50%;
+    }
+    button{
+        padding: 10px 23px;
+    }
+}
